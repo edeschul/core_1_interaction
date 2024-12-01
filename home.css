@@ -1,0 +1,32 @@
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+	h1{
+		font-size: 100px;
+		color: lightcyan;
+		text-align: center;
+	}
+		p{
+			font-size: 30px;
+			font-family: sans-serif;
+			color: lightcyan;
+			text-align: center;
+		}
+
+a{
+	text-decoration: none;
+	color: lightcyan;
+	transition: color 0.3s;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-family: "Audiowide", sans-serif;
+}
+a:hover{
+	color: rebeccapurple;
+}
+
+
