@@ -1,0 +1,111 @@
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-direction: column;
+}
+
+.button {
+            background-color: lightskyblue;
+            color: lightskyblue;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 20px;
+}
+
+.button:hover {
+            color: limegreen;
+}
+
+.audio {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+}
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: dodgerblue;
+  text-align: center;
+}
+
+p{
+  font-family: "comfortaa", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: darkcyan;
+  text-align: center;
+}
+
+a{
+  color: darkcyan;
+  font-family: "comfortaa", sans-serif;
+  margin: 10px;
+}
+
+a:hover{
+  color: rebeccapurple;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+/*  display: flex;*/
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://64.media.tumblr.com/eafc59c91455aaa7b69abb8bdb82cefb/tumblr_mt4zhvO3i11qftn52o1_500.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.glow{
+  font-size: 3rem;
+  color: whitesmoke;
+  text-shadow: 0 0 5px #00bcd4, 
+        0 0 10px #00bcd4, 
+        0 0 15px #00bcd4, 
+        0 0 20px #00bcd4, 
+        0 0 25px #00796b, 
+        0 0 30px #00796b, 
+        0 0 35px #00796b; /* Initial glow effect */
+    animation: glow-animation 1.5s infinite alternate; /* Animation */;
+}
+
+@keyframes glow-animation{
+  0%{
+    text-shadow: 
+            0 0 5px #00bcd4, 
+            0 0 10px #00bcd4, 
+            0 0 15px #00bcd4, 
+            0 0 20px #00bcd4, 
+            0 0 25px #00796b, 
+            0 0 30px #00796b, 
+            0 0 35px #00796b;
+    }
+    100% {
+        text-shadow: 
+            0 0 10px #00bcd4, 
+            0 0 20px #00bcd4, 
+            0 0 30px #00bcd4, 
+            0 0 40px #00bcd4, 
+            0 0 50px #00796b, 
+            0 0 60px #00796b, 
+            0 0 70px #00796b; /* Enhanced glow effect */
+    }
+}
+  }
+}

@@ -1,0 +1,124 @@
+body {
+  background: #FFFFFF;
+  font-family: "Teko", sans-serif;
+  margin: 0;
+  transition: .25s ease-in-out;
+}
+
+a:hover{
+	color: hotpink;
+	font-family: monospace;
+}
+
+a{
+	color: whitesmoke;
+	font-family: monospace;
+	font-size: 20px;
+	margin: 20px;
+}
+	
+.image-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 150px;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+img{
+	width: 30%;
+	height: auto;
+	object-fit: contain;
+	margin:0;
+	min-width: 350px;
+	padding-top: 200px;
+}
+
+
+
+.controller {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  min-width: 100px;
+  padding: 5px 15px 8px 15px;
+  position: absolute;
+  font-size: 22px;
+  border: solid 3px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -68px;
+  cursor: pointer;
+  transition: .25s ease-in-out;
+  z-index:500;
+}
+
+
+/*Ripple*/
+.ripple {
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: fixed;
+}
+
+
+/*body.background-image{
+	background-image: url(https://media1.giphy.com/media/G0Odfjd78JTpu/200w.gif?cid=6c09b952v3v7ompsss2hp6txp4nlnhilsvoxs81arliwwe28&ep=v1_gifs_search&rid=200w.gif&ct=g);
+	background-size: cover;
+}*/
+
+/*Bright Ripple*/
+body.dark {
+	background: rgba(0, 0, 0, 0.9);
+}
+body.dark .ripple {
+  background: rgba(255, 255, 255, 0.5);
+}
+body.dark .controller {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+/*Animate Function*/
+.animate {
+  animation: ripple-mo 1s cubic-bezier(0, 0, 0.2, 1);
+}
+@keyframes ripple-mo {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(10);
+    opacity: 0;
+  }
+}
+
+body{
+	background-image: url(https://i.pinimg.com/originals/2d/11/b1/2d11b17c8e10bd839209eacccbb8d38a.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+
+
+h1{
+	font-family: serif;
+	font-size: 100px;
+	color: deeppink;
+	text-align: center;
+}
+
+
+p{
+			color: whitesmoke;
+			font-family: monospace;
+			font-size: 20px;
+			text-align: center;
+		}

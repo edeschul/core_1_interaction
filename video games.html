@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Video Games</title>
+		<link rel="stylesheet" type="text/css" href="video games.css">
+</head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+<body>
+<style>
+	body{
+		background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif);
+		font-family: "jersey 10" ;
+	}
+	.link-container{
+		text-align: center;
+		padding: 20px;
+	}
+
+	a{
+		margin: 0 15px;
+		text-decoration: none;
+		color: blueviolet;
+	}
+
+	.glow{
+		font-size: 200px;
+		color: hotpink;
+		text-align: center;
+		animation: glow 1s ease-in-out infinite alternate;
+	}
+
+@keyframes glow{
+	from {
+	text-shadow: 0 0 10px hotpink, 0 0 20px hotpink, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+to{
+	text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+</style>
+</body>
+	<div class="link-container">
+		<a class="glow" href="pacman.html">Start</a>
+		<a href="index.html">Home</a>
+	</div>
+<style>
+	body{
+		margin: 0;
+		height: 100vh;
+		display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; 
+            overflow: hidden; 
+        }
+
+        .zoom-title {
+            font-size: 60px; 
+            opacity: 0; 
+            transform: scale(2); 
+            animation: zoomIn 1.5s ease forwards;
+        }
+
+        @keyframes zoomIn {
+            0% {
+                opacity: 0; 
+                transform: scale(2); 
+            }
+            100% {
+                opacity: 1; 
+                transform: scale(1); 
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="zoom-title">Who wants to play a game?</h1>
+	}
+</style>
+
+</html>

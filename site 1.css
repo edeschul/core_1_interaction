@@ -1,0 +1,93 @@
+body { margin-top: 4em; padding: 5em; color: #f1f1f1; font-family: 'Anonymous Pro', monospace;background-color: #673ab7; 
+  	background-color: #010;
+}
+
+img {
+			width: 500px;
+		}
+
+body{
+			background-image: url(https://images.unsplash.com/photo-1435224654926-ecc9f7fa028c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+			background-size: cover;
+			background-position: center;
+		}
+
+p {text-align: center;}
+div {text-align: center;}
+
+	p{
+		font-family: monospace;
+		font-size: 30px;
+		color: lightskyblue;
+	}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height:2
+}
+
+
+.typewriter{
+  display: inline-block;
+  overflow: hidden;
+  overflow-x: auto;
+  border-right: 2px solid black;
+	width: 800%;
+/*	height: 500px;*/
+	white-space: nowrap;
+  animation: typing 10s steps(417) 1s 1 normal both, blink 0.75s step-end infinite;
+}
+    
+@keyframes typing{
+	0%{
+		width: 0%;
+	}
+		100%{
+	width: 100%;
+	}
+}
+
+@keyframes blink{
+50%{
+	border-color: transparent;
+}
+100%{
+	border-color: black;
+}
+}
+
+h1 {
+  background-image: url(https://i.makeagif.com/media/8-18-2016/fbcdxA.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 10px 0;
+}
+
+body{
+	margin: 0;
+}
+
+
+a{
+	color: lightyellow;
+	font-size: 25px;
+	font-family: monospace;
+	transition: color 0.3s;
+	margin: 0 auto;
+}
+
+a:hover{
+	color: lightskyblue;
+}

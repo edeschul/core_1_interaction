@@ -1,0 +1,22 @@
+body{
+ background-color: src="https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif";
+}
+
+.glow{
+  font-size: 100px;
+  color: hotpink;
+  text-align: center;
+  animation: glow 1s ease-in-out infintie alternate;
+}
+
+a{
+  text-align: center;
+  font-size: 50px;
+}
+
+a:hover{
+  color: limegreen;
+}
+
+
+
