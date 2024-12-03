@@ -76,7 +76,7 @@ body{
 	align-items: center;
 	height: 100vh;
 	font-family: 'Shadows Into Light', cursive;
-	background-image: url(https://www.surfertoday.com/images/wallpapers/surfingwallpaper23.jpg);
+	background-image: url('surfing.webp');
 	background-size: cover;
 	color: lightyellow;
     overflow: hidden; /* Prevent scrolling */
